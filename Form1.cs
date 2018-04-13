@@ -15,5 +15,8 @@ namespace EasyWork
         {
             InitializeComponent();
         }
+
+
+     
     }
 }

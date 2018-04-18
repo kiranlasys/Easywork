@@ -16,7 +16,16 @@ namespace EasyWork
             InitializeComponent();
         }
 
-      
+        private void button1_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show(Sum(Convert.ToInt32(textBox1.Text),Convert.ToInt32(textBox2.Text)).ToString());
+        }
+
+        public int Sum(int a, int b)
+        {
+            return a = b;
+        }
+
      
     }
 }
